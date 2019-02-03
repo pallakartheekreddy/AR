@@ -1,0 +1,30 @@
+{
+  "name": "augmented-reality-arjs",
+  "version": "1.0.0",
+  "description": "Augmented Reality Throguh a AR.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivashanmugam/AR.git"
+  },
+  "keywords": [
+    "AR.js",
+    "Augmented",
+    "Reality",
+    "Javascript",
+    "Augmented",
+    "Reality"
+  ],
+  "author": "sivashanmugam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shivashanmugam/AR/issues"
+  },
+  "homepage": "https://github.com/shivashanmugam/AR#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
