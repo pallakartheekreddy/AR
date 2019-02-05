@@ -1,15 +1,25 @@
 # AR
 Augmented Reality
 
-Go To Link https://shivashanmugam.github.io/AR/, Either in desktop, Ensure you are having latest chrome.
-Tested Desktop Chrome Version :  71.0, Allow Camera Access
+Demo
+Go To Link https://shivashanmugam.github.io/AR/ in your *Mobile* ( I have tested in Chrome Android, Version 71.0 )
 
-Open the below image in mobile
-https://shivashanmugam.github.io/AR/patterns/patt_images/A.jpeg
+Allow Permission to access camera
+![Camera Permission](https://shivashanmugam.github.io/AR/images/demo/camera_permission.jpeg)
 
-Show your mobile facing the desktop camera. It should show result. Like below Screenshot.
 
-It will work in mobile as expected, Just do the above mentioned process vice versa for mobile. 
+Go To Link https://shivashanmugam.github.io/AR/images/pattern_images/A.png in *Dekstop*
+
+Now See the Image *A* through mobile camera, The result must be like below image
+![Result A](https://shivashanmugam.github.io/AR/images/demo/a_after.jpeg)
+
+Mutliple images demo
+Open below link in Dekstop and point the AR camera from CHROME 
+https://shivashanmugam.github.io/AR/images/demo/abc_before.jpeg
+
+Result must be
+![Result ABC](https://shivashanmugam.github.io/AR/images/demo/abc_after.jpeg)
+
 
 
 
