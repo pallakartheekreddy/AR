@@ -1,20 +1,93 @@
-<!DOCTYPE html>
+<!doctype HTML>
 <html>
-    <head>
-        <script src="aframe-0.8.2.js"></script>
-        <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
-    </head>
-    <body>
-        <a-scene embedded arjs='debugUIEnabled: false' >
-            <a-marker preset='custom' type="pattern" url="patterns/a.patt">
-                <a-box position='0 0.5 0' src="./images/A.png"></a-box>
-            </a-marker>
-            <a-marker preset='custom' type="pattern" url="patterns/b.patt">
-                <a-box position='0 0.5 0' src="./images/B.png"></a-box>
-            </a-marker>
-            <a-marker preset='custom' type="pattern" url="patterns/c.patt">
-                <a-box position='0 0.5 0' src="./images/C.png"></a-box>
-            </a-marker>
-        </a-scene>
-    </body>
+<script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+<script src="https://unpkg.com/aframe-text-geometry-component@^0.5.0/dist/aframe-text-geometry-component.min.js"></script>
+
+<body style='margin : 0px; overflow: hidden;'>
+    <a-scene embedded arjs='debugUIEnabled: false'>
+
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/a.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/A.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/b.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/B.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/c.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/C.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/d.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/D.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/e.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/E.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/f.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/F.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/g.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/G.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/h.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/H.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/i.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/I.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/j.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/J.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/k.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/K.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/l.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/L.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/m.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/M.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/n.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/N.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/o.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/O.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/p.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/P.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/q.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/Q.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/r.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/R.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/s.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/S.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/t.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/T.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/u.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/U.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/v.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/V.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/w.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/W.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/x.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/X.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/y.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/Y.png"></a-box>
+        </a-marker>
+        <a-marker preset='custom' type="pattern" url="patterns/alphabets/z.patt">
+            <a-box position='0 0.5 0' src="./images/alphabets/Z.png"></a-box>
+        </a-marker>
+
+        <a-entity camera></a-entity>
+    </a-scene>
+</body>
+
 </html>
