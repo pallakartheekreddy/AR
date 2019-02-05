@@ -19,7 +19,7 @@ Now See the Image *A* through mobile camera, The result must be like below image
 ## Mutliple images demo  
 
 Open below link in Dekstop and point the AR camera from CHROME 
-https://shivashanmugam.github.io/AR/images/demo/abc_before.jpeg
+https://shivashanmugam.github.io/AR/images/demo/abc_before.png
 
 Result must be  
 
